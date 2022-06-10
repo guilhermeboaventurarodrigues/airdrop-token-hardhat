@@ -53,7 +53,6 @@ contract Airdrop{
         return true;
     }
 
-
     function state() public view returns(Status){
         return contractState;
     }

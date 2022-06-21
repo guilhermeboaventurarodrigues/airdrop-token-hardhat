@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+# CONTRATO DE AIRDROP DE TOKENS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+É um contrato onde você pode inscrever várias carteiras nesse airdop, e quando o airdrop é executado os tokens são dividos igualmente pelas carteiras inscritas nele.
 
-Try running some of the following tasks:
-
+## Abrir e rodar o projeto
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+# Clone este repositório
+$ git clone https://github.com/guilhermeboaventurarodrigues/airdrop-token-tests.git
+
+# Instale as dependências
+$ npm install
+
+# Execute os testes
+$ npx hardhat test
 ```
